@@ -2,8 +2,8 @@
   header
 ---------------------------------------------------- */
 
-nav{
-  background: black;  
+nav.navbar{
+  background-color : black !important;  
 }
 header {
   position: relative;

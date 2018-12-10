@@ -19,16 +19,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link text-white" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="index.php">Accueil <span class="sr-only mr-1 ml-2">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white "  href="collections.php"><i class="fab fa-youtube mr-1 "></i>Collections</a>
+        <a class="nav-link text-white "  href="collections.php"><i class="fab fa-youtube mr-1 ml-2"></i>Collections</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
     </form>
-      <button class="btn btn-outline-primary my- my-sm-2 mr-1" type="submit">Join Now !</button>
+      <button class="btn btn-outline-primary my- my-sm-2 mr-1" type="submit">Inscription </button>
 
       <button class="btn btn-outline-primary my- my-sm-0" type="submit">Upload <i class="fas fa-cloud-upload-alt"></i></button>
 
