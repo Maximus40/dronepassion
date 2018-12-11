@@ -56,3 +56,13 @@ header .overlay {
 .logo img {
   width:70px;
 }
+.login{
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}
+.btn_login{
+  left: 80px;
+  position: absolute;
+
+}
