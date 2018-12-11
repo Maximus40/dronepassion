@@ -2,6 +2,7 @@
 include('inc/header.php');?>
 
     <div class="container login">
+        
         <h1>S'inscrire</h1>
 
             <form method="post" action="register.php">

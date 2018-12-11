@@ -23,7 +23,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2 bg-dark" type="search" placeholder="Rechercher" aria-label="Search">
+      <input class="form-control mr-sm-2 bg-dark border border-primary" type="search" placeholder="Rechercher" aria-label="Search">
     </form>
       <a href="register.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Inscription</a> 
       <a href="login.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Upload <i class="fas fa-cloud-upload-alt"></i></a> 
