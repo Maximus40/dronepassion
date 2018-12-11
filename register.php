@@ -14,12 +14,12 @@ include('inc/header.php');?>
                     <input id="pseudo" class="form-control" type="text" placeholder="Pseudo">
                 </div>
                 <div class="form-group col-md-3">
-                    <label for="password">Mot de passse</label>
-                    <input id="password" class="form-control" type="text" placeholder="Mot de passe">
+                    <label for="password">Mot de passe</label>
+                    <input id="password" class="form-control" type="password" placeholder="Mot de passe">
                 </div>
                 <div class="form-group col-md-3">
                     <label for="password_confirm">Mot de passe (Confirmation)</label>
-                    <input id="password_confirm" class="form-control" type="text" placeholder="Mot de passe">
+                    <input id="password_confirm" class="form-control" type="password" placeholder="Mot de passe">
                 </div>
             <button class="btn btn-primary btn_login" type="button">S'inscrire</button>
             

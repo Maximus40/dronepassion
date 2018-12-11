@@ -27,7 +27,5 @@
     </form>
       <a href="register.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Inscription</a> 
       <a href="login.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Upload <i class="fas fa-cloud-upload-alt"></i></a> 
-
-
   </div>
 </nav>
