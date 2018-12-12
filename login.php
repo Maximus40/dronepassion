@@ -10,7 +10,7 @@ include('inc/header.php');?>
 
        <label>Pseudo</label>
 
-         <input type="text" name="username" class="form-control col-md-3" placeholder="Pseudo" />
+         <input type="text" name="username" class="form-control col-sm-2" placeholder="Pseudo" />
 
     </div>
 
@@ -18,17 +18,11 @@ include('inc/header.php');?>
 
       <label>Mot de passe </label>
 
-       <input type="Password" name="password"class="form-control col-md-3" placeholder="Mot de passe"/>
+       <input type="Password" name="password"class="form-control col-sm-2" placeholder="Mot de passe"/>
 
     </div>
         <button type="submit" class="btn btn-primary btn_login">Se connecter</button>
         
   </form>
-</fieldset>
-
-
-
-
-
-
+</div>
 </form>
