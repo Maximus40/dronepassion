@@ -21,30 +21,25 @@ include('inc/header.php');?>
 
 <!-- Demo styles -->
 <style>
-    body {
-      background: #fff;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color:#000;
-      margin: 0;
-      padding: 0;
-    }
+    
+     
     .swiper-container {
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
+      
     }
     .swiper-slide {
       background-position: center;
       background-size: cover;
       width: 300px;
       height: 300px;
-
+      background:white;
     }
   </style>
 </head>
 <body>
-<h1 class="text-center mt-2">Collections</h1>
+<h1 class="text-center mt-2 text-primary">Collections</h1>
 <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide" >test</div>
