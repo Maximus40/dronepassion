@@ -6,7 +6,7 @@
 			<div class="col-md-10">
 				<div class="mb-5"></div>
 				<article class="border border-white mb-3">
-					<h3 class="text-light">QuadGoals: airblastr</h3>
+					<h3 class="text-light">QuadGoals: Airblastr</h3>
 					<p class="text-light">Description avec <a href="https://www.airvuz.com/blog/quadgoals-airblastr" class="text-primary">accès à la suite</a></p>
 				</article>
 			
