@@ -36,7 +36,8 @@ if(session_status()=== PHP_SESSION_NONE){
     </form>
     <?php if(isset($_SESSION['auth'])): ?>
       <a href="login.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Upload <i class="fas fa-cloud-upload-alt"></i></a> 
-      <a href="">Mon compte</a>
+      <a href="" class="btn btn-outline-primary my- my-sm-2 mr-1">Mon compte</a>
+      <a href="logout.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Déconnexion</a>
 <?php else: ?>
       <a href="register.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Inscription</a> 
       <a href="login.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Upload <i class="fas fa-cloud-upload-alt"></i></a> 
