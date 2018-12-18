@@ -63,12 +63,13 @@ header .overlay {
 .login{
     position: relative;
     left: 30%;
-    margin-top: 5%;
 }
 .btn_login{
   left: 10%;
   position: absolute;
 }
+
+
 /* swiper */
 .swiper-container {
   width: 100%;

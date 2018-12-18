@@ -1,5 +1,7 @@
 <?php
-include('inc/header.php');?>
+include('inc/header.php');
+require 'inc/login.php';
+?>
 
 <div class="container login">
   <h1>Se connecter</h1>
@@ -21,7 +23,12 @@ include('inc/header.php');?>
        <input type="Password" name="password"class="form-control col-sm-2" placeholder="Mot de passe"/>
 
     </div>
-        <button type="submit" class="btn btn-primary btn_login">Se connecter</button>
+    <div class="form-group ">
+    <label>
+        <input type="checkbox" name="remember" value="1"> Se souvenir de moi
+    </label>
+</div>
+    <button type="submit" class="btn btn-primary btn_login">Se connecter</button>
         
   </form>
 </div>

@@ -22,7 +22,7 @@ require('inc/registration.php');
 
 
 <?php endif; ?>
-
+    
             <form method="post" action="register.php">
                 <div class="form-group col-sm-3">
                     <label for="email">Email</label>
@@ -40,10 +40,9 @@ require('inc/registration.php');
                     <label for="password_confirm">Mot de passe (Confirmation)</label>
                     <input id="password_confirm" class="form-control" type="password" placeholder="Mot de passe" name="password_confirm">
                 </div>
-            <input class="btn btn-primary btn_login" type="submit">S'inscrire
+            <input class="btn btn-primary btn_login" type="submit">
             
         </div>
-
 
 
 

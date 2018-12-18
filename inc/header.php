@@ -35,7 +35,7 @@ if(session_status()=== PHP_SESSION_NONE){
       <input class="form-control mr-sm-2 bg-dark border border-primary" type="search" placeholder="Rechercher" aria-label="Search">
     </form>
     <?php if(isset($_SESSION['auth'])): ?>
-      <a href="login.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Upload <i class="fas fa-cloud-upload-alt"></i></a> 
+      <a href="upload.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Upload <i class="fas fa-cloud-upload-alt"></i></a> 
       <a href="" class="btn btn-outline-primary my- my-sm-2 mr-1">Mon compte</a>
       <a href="logout.php" class="btn btn-outline-primary my- my-sm-2 mr-1">Déconnexion</a>
 <?php else: ?>
