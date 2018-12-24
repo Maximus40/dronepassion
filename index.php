@@ -1,4 +1,4 @@
 <?php
+include('accueil.php');
 
-include 'accueil.php';
-?>
+ ?>

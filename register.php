@@ -1,13 +1,8 @@
-<?php
-include('inc/header.php');
-require('inc/registration.php');
-?>
+<?php require 'inc/header.php'; ?>
 
-    <div class="container login">
-        
-        <h1>S'inscrire</h1>
+<h1>S'inscrire</h1>
 
-        <?php if(!empty($errors)): ?>
+<?php if(!empty($errors)): ?>
 
   <div class="alert alert-danger">
     <p>Vous n'avez pas remplis le formulaire correctement</p>
@@ -22,29 +17,43 @@ require('inc/registration.php');
 
 
 <?php endif; ?>
-    
-            <form method="post" action="register.php">
-                <div class="form-group col-sm-3">
-                    <label for="email">Email</label>
-                    <input id="email" class="form-control" type="text" placeholder="Email" name="email">
-                </div>
-                <div class="form-group col-sm-3">
-                    <label for="pseudo">Pseudo</label>
-                    <input id="username" class="form-control" type="text" placeholder="Pseudo" name="username">
-                </div>
-                <div class="form-group col-sm-3">
-                    <label for="password">Mot de passe</label>
-                    <input id="password" class="form-control" type="password" placeholder="Mot de passe" name="password">
-                </div>
-                <div class="form-group col-sm-3">
-                    <label for="password_confirm">Mot de passe (Confirmation)</label>
-                    <input id="password_confirm" class="form-control" type="password" placeholder="Mot de passe" name="password_confirm">
-                </div>
-            <input class="btn btn-primary btn_login" type="submit">
-            
-        </div>
+
+<form action="inc/register.php" method="POST">
+    <div class="form-group">
+
+      <label >Pseudo</label>
+
+      <input type="text" name="username" class="form-control" />
+
+    </div>
+
+    <div class="form-group">
+
+      <label>Email</label>
+
+      <input type="text" name="email"  class="form-control" />
+
+    </div>
+
+    <div class="form-group">
+
+      <label >Mot de passe</label>
+
+      <input type="Password" name="password"class="form-control" />
+
+    </div>
+
+    <div class="form-group">
+
+      <label>Confirmez votre mot de passe</label>
+
+      <input type="Password" name="Password_confirm"class="form-control" />
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">M'inscrire</button>
+  </form>
 
 
 
-
-</form>
+<?php require 'inc/footer.php'; ?>
