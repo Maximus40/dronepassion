@@ -31,7 +31,7 @@
 
     </div>
 
-    <button type="submit" class="btn btn-primary">Se connecter</button>
+    <button type="submit" class="btn btn-primary btn-form">Se connecter</button>
   </form>
 
 

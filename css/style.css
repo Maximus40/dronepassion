@@ -84,3 +84,13 @@ header .overlay {
   height: 300px;
   background:white;
 }
+.form-group{
+  width: 20%;
+  position: relative;
+  left: 35%;
+  color: white;
+}
+.btn-form{
+  position: relative;
+  left: 35%;  
+}
